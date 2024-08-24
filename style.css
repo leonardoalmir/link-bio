@@ -120,3 +120,11 @@ body {
     margin: 40px 0 0 0;
     color: #c4c4cc5f;
 }
+
+.rodape span {
+    color: rgb(255, 63, 63);
+}
+
+#svg_verificado {
+    fill: #0095F6;
+}
