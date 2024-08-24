@@ -1,27 +1,4 @@
-/* 
-# Fonte usada
-'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-
-# Sugestão de background color
-#01060d
-#01171f 
-
-# Cor da borda da foto
-#c4c4cc5f
-
-# Cor do @do_perfil
-#c4c4cccc
-
-# Cor do Cargo
-rgba(200, 229, 255, 0.769)
-
-# Animações ao passar o mouse
-Alterar transparência do botão
-Colorir os ícones (o GitHub não tem alteração).
-*/
-
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;700&family=Poppins:wght@400;700;900&display=swap');
-
 
 * {
     margin: 0;
@@ -64,31 +41,36 @@ body {
 }
 
 .usuario {
-    text-align: center;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0 40px 0;
+}
+
+.user_inffo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .usuario h1 {
     font-size: 16px;
     color: #fbfbfbe0;
     font-weight: 500;
-    margin: 5px 0 8px 0;
-    display: inline-block;
 }
 
 .verificado {
-    display: inline-block;
-    vertical-align: middle;
-    width: 16px;
+    width: 20px;
+    height: 20px;
 }
 
 .cabecalho h3 {
-    /* color: rgba(116, 255, 125, 0.689); */
     color: #ffffff;
     font-size: 20px;
     font-family: "IBM Plex Mono", monospace;
     font-weight: 400;
     font-style: normal;
-    margin-bottom: 40px;
 }
 
 .menu_botoes {
@@ -123,35 +105,18 @@ body {
 .redes_sociais {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
 }
 
 .social {
     text-decoration: none;
-    /* padding: 16px; */
 }
 
 .rodape {
+    display: flex;
+    justify-content: center;
     margin: 40px 0 0 0;
     color: #c4c4cc5f;
 }
-
-.rodape span {
-    color: rgb(255, 63, 63);
-}
-
-#youtube {
-    color: white;
-    transition: .3s;
-}
-
-#youtube:hover {
-    color: red;
-}
-
-
-#svg_verificado {
-    fill: #0095F6;
-}
-
